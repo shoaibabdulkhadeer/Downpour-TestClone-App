@@ -35,7 +35,7 @@ setChange(prev => prev = !prev)
 
 
     <div>
-        <p className='flex items-center gap-3' ><FiPhoneCall size={25}/> +61414322847</p>
+        <p className='hidden md:flex items-center gap-3' ><FiPhoneCall size={25}/> +61414322847</p>
     </div>
 
  {change? <ImCross className='md:hidden cursor-pointer'  size={35} onClick={goahead} /> :    <GiHamburgerMenu  className='md:hidden cursor-pointer'  size={35} onClick={goahead}/>  }

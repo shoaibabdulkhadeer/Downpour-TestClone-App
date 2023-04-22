@@ -15,7 +15,7 @@ const Main = () => {
   return (
     <div className='bg-hero min-h-[80vh] flex items-center'>
         
-        <form onSubmit={submit} className='flex p-5 ml-16 w-[350px] flex-col md:p-8 gap-10 outline rounded  bg-white  md:w-[450px] min-h-[500px] justify-center md:ml-32'>
+        <form onSubmit={submit} className='flex p-5 ml-16 w-[310px] flex-col md:p-8 gap-10 outline rounded  bg-white  md:w-[450px] min-h-[500px] justify-center md:ml-32'>
  
 
      <div className='flex items-center'>
